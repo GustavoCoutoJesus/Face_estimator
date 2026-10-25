@@ -1,0 +1,13 @@
+numpy==1.26.4
+scipy>=1.11,<1.15
+pandas>=2.0,<2.3
+pillow>=10.0
+matplotlib==3.9.2
+opencv-python==4.10.0.84
+opencv-contrib-python==4.10.0.84
+mediapipe==0.10.20
+torch>=2.2
+torchvision>=0.17
+huggingface_hub>=0.20
+tqdm>=4.65
+face-trait-transformer[hub,figures]>=0.1.0

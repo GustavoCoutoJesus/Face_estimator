@@ -1,0 +1,18 @@
+# Byte-compiled / cache
+__pycache__/
+*.py[cod]
+*$py.class
+.venv/
+venv/
+env/
+
+# Model bundle if copied locally (1.28 GB)
+model_bundle/
+*.pt
+*.pth
+
+# Ignore personal photos in input_faces and generated outputs in results
+input_faces/*
+!input_faces/.gitkeep
+results/*
+!results/.gitkeep
