@@ -102,3 +102,14 @@ All 34 attributes are scored on a `0–100` scale (`50` = neutral midpoint), tra
   - Displays the remaining 16 OMI attributes split into **Physical & Demographic Impressions** (`age`, `gender`, `weight`, `typical`, `long-haired`, `hair-color`, `skin-color`, `looks-like-you`, `gay`) and **Perceived Ethnic / Racial Attributions** (`white`, `hispanic`, `middle-eastern`, `islander`, `native`, `asian`, `black`).
 
 > **Scientific Disclaimer**: As emphasized by Todorov et al., these models measure **superficial human perceptual stereotypes** (how an average observer judges a face at first glance), **not** a person's real personality, intelligence, or moral character.
+
+---
+
+## 7. Attributions & Citations
+
+This repository is a **simplified local wrapper** created to make face impression modeling easily runnable and replicable on personal face sets. It relies directly on:
+- **`face-trait-transformer`** by Kianté Fernandez: [https://github.com/kiante-fernandez/face-trait-transformer](https://github.com/kiante-fernandez/face-trait-transformer)
+- **One Million Impressions (OMI) Dataset** by Joshua C. Peterson et al.: [https://github.com/jcpeterson/omi](https://github.com/jcpeterson/omi)
+- **FFHQ Alignment Specification** by NVIDIA: [https://github.com/NVlabs/ffhq-dataset](https://github.com/NVlabs/ffhq-dataset)
+- **Dimensional Face Perception Framework** by Alexander Todorov and colleagues (Oosterhof & Todorov 2008; Todorov & Oh 2021).
+
